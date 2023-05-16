@@ -1,0 +1,41 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 {
+    color: #607d8b;
+    font-weight: 200
+}
+
+h2 {
+    color: #d7cfbe;
+    font-weight: 300
+}
+
+#header {
+    nav {
+        ul {
+            li {
+                h1 {
+                    margin-top: 10px;
+                }
+
+                a {
+                    border: 1px solid rgba(35, 35, 35, 0.3);
+                    background: linear-gradient(rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3));
+                    background-color: rgba(40, 40, 40, 0.3);
+
+                    &:hover {
+                        color: #ffca28;
+                        border: 1px solid rgba(35, 35, 35, 0.3);
+                        background: linear-gradient(rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3));
+                        background-color: rgba(40, 40, 40, 0.3);
+
+                        box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
+                    }
+                }
+            }
+        }
+    }
+}
