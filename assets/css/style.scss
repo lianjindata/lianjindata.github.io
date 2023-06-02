@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+    max-width: 1024px;
+}
+
 h1 {
     color: #607d8b;
     font-weight: 200
@@ -15,6 +19,7 @@ h2 {
 
 #header {
     nav {
+        max-width: 1024px;
         ul {
             li {
                 h1 {
@@ -38,4 +43,8 @@ h2 {
             }
         }
     }
+}
+
+section {
+    max-width: 1024px;
 }
